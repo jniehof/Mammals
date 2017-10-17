@@ -2,5 +2,8 @@
 # Date: October 17, 2017
 # Author: Jamie Niehof
 
+
 # Loop over all files
 for data_file in $@
+	do
+	echo "unique species in $data_file"
